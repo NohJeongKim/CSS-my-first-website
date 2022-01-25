@@ -1,0 +1,42 @@
+h2 {
+  border-bottom: 1px gray solid;
+  padding: 10px;
+}
+
+#grid1 {
+  border: 1px solid gray;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  padding: 0px;
+  margin: 20px;
+}
+
+.text1 {
+  border-left: 1px solid gray;
+  padding: 20px;
+}
+
+#grid2 {
+  border: 1px solid gray;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  padding: 0px;
+  margin: 20px;
+}
+
+.text2 {
+  border-left: 1px solid gray;
+  padding: 20px;
+}
+
+img.image1 {
+  position: relative;
+  top: 30px;
+  left: 60px;
+}
+
+img.image2 {
+  position: relative;
+  top: 30px;
+  left: 60px;
+}

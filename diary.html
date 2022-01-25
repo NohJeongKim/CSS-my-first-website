@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>write diary</title>
+  <link rel="stylesheet" href="button.css">
+  <style media="screen">
+    .diary {
+      font-family: sans-serif;
+      font-size: 20px;
+      line-height: 200%;
+    }
+
+    #story {
+      font-family: sans-serif;
+    }
+
+    .mood {
+      font-size: 15px;
+      border: thick double #A2A2A2;
+    }
+  </style>
+</head>
+
+<body>
+  <button type="button" class="button" style="margin-top: 20px;margin-bottom: 0px;">
+    <a href="main.html">메인으로</a>
+  </button>
+  <h1>일기장 쓰기</h1>
+  <div class="diary">
+    <form action="diary.html" method="post">
+      <label>제목:</label>
+      <input type="text" size="50" placeholder="제목을 적어주세요." style="width:50%;height:30px;"><br>
+      <label>작성자:</label>
+      <input type="text" size="30" placeholder="작성자의 이름을 적어주세요." style="width:20%;height:30px;"><br>
+      <label>비밀번호:</label>
+      <input type="password" placeholder="비밀번호를 적어주세요." style="width:20%;height:30px;"><br><br>
+      <label>오늘의 기분을 고르시오:</label><br>
+      <div class="mood">
+        <input type="radio" name="mood" checked='checked'>매우 좋음<br>
+        <input type="radio" name="mood" checked='checked'>좋음<br>
+        <input type="radio" name="mood" checked='checked'>보통<br>
+        <input type="radio" name="mood" checked='checked'>나쁨<br>
+        <input type="radio" name="mood" checked='checked'>매우 나쁨<br>
+      </div><br>
+      <label>일기의 내용</label><br>
+      <textarea id="story" name="diary" rows="20" cols="100" placeholder="자신의 일기를 적어주세요." style="width:70%;height:70%;"></textarea><br>
+  </div>
+  <button type="button">
+    일기 등록하기
+  </button>
+
+  </form>
+</body>
+
+</html>

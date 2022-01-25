@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>write to-do-list</title>
+  <link rel="stylesheet" href="button.css">
+  <style media="screen">
+    h3 {
+      padding-left: 20px;
+    }
+
+    input {
+      margin-left: 15px;
+      text-align: center;
+    }
+
+    .jb-wrap {
+      width: 90%;
+      margin: auto;
+      position: relative;
+    }
+
+    .jb-wrap img {
+      width: 100%;
+      vertical-align: middle;
+    }
+
+    .jb-text1 {
+      padding: 5px 10px;
+      background-color: #F6ED55;
+      border: 3px solid #FFD56D;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .jb-text2 {
+      padding: 5px 10px;
+      background-color: #D4F55A;
+      border: 3px solid #C5F21D;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+    }
+
+    .jb-text3 {
+      padding: 5px 10px;
+      background-color: #A6D7FF;
+      border: 3px solid #6D96FF;
+      position: absolute;
+      top: 10%;
+      left: 65%;
+    }
+  </style>
+</head>
+
+<body>
+  <button type="button" class='button' style="margin-top: 20px;margin-bottom: 0px;">
+    <a href="main.html">메인으로</a>
+  </button>
+  <h1 style="margin-bottom: 10px;">To-Do-List</h1>
+  <div class="jb-wrap">
+    <div class="jb-img"><img src='https://cdn.pixabay.com/photo/2017/09/04/02/40/blackboard-2712823_960_720.jpg'></div>
+    <div class="jb-text1">
+      <ol>
+        <h4>To-Do-List1</h4>
+        <li><input type="checkbox"> 운동하기.</li>
+        <li><input type="checkbox"> 선인장 물주기.</li>
+        <li><input type="checkbox"> 아르바이트 다녀오기.</li>
+        <li><input type="checkbox"> 친구랑 롯데월드 갔다오기.</li>
+        <li><input type="checkbox"> 마트에서 아이스크림 사오기.</li>
+        <li><input type="text" placeholder="Add to-do-list..."> <button type="button">Add</button></li>
+      </ol>
+    </div>
+    <div class="jb-text2">
+      <ol>
+        <h4>To-Do-List2</h4>
+        <li><input type="checkbox"> 친구 집에 놀러가기.</li>
+        <li><input type="checkbox"> 도서관 다녀오기.</li>
+        <li><input type="checkbox"> 코딩 공부하기.</li>
+        <li><input type="checkbox"> 자격증 공부하기.</li>
+        <li><input type="checkbox"> 수원대학교 등록금 내기.</li>
+        <li><input type="text" placeholder="Add to-do-list..."> <button type="button">Add</button></li>
+      </ol>
+    </div>
+    <div class="jb-text3">
+      <ol>
+        <h4>To-Do-List3</h4>
+        <li><input type="checkbox"> 국가 장학금 신청하기.</li>
+        <li><input type="checkbox"> 서점 들리기.</li>
+        <li><input type="checkbox"> 백화점 갔다오기.</li>
+        <li><input type="checkbox"> 동생하고 놀러가기.</li>
+        <li><input type="checkbox"> 다이소에서 공책 사오기.</li>
+        <li><input type="text" placeholder="Add to-do-list..."> <button type="button">Add</button></li>
+      </ol>
+    </div>
+  </div>
+
+</body>
+
+</html>
